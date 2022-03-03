@@ -22,7 +22,7 @@ app.use("/login",loginController)
 app.use("/vlog",vlogController)
 app.use("/file", fileController)
 
-app.get('/', (req, res) => res.send('Hello World!'))
+// app.get('/', (req, res) => res.send('Hello World!'))
 
 // heroku
 if(process.env.NODE_ENV == "production"){
